@@ -1,0 +1,24 @@
+<assembly>
+    <id>assembly</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>/documentum-plugin/lib</outputDirectory>
+            <useProjectArtifact>false</useProjectArtifact>
+        </dependencySet>
+    </dependencySets>
+
+    <fileSets>
+        <fileSet>
+            <directory>target</directory>
+            <outputDirectory>/documentum-plugin/lib</outputDirectory>
+            <includes>
+                <include>documentum-plugin.jar</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

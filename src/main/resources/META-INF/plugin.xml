@@ -1,0 +1,30 @@
+<idea-plugin version="2">
+    <name>documentum-plugin</name>
+    <description>Documentum Plugin</description>
+    <version>1.2</version>
+    <vendor>toolkas</vendor>
+
+    <idea-version since-build="107.105"/>
+
+    <application-components>
+        <component>
+            <interface-class>ru.toolkas.idea.plugins.documentum.components.application.DocumentumPlugin</interface-class>
+            <implementation-class>ru.toolkas.idea.plugins.documentum.components.application.DocumentumPluginImpl</implementation-class>
+        </component>
+    </application-components>
+
+    <project-components>
+        <component>
+            <implementation-class>ru.toolkas.idea.plugins.documentum.components.project.DfProjectComponent</implementation-class>
+            <interface-class>ru.toolkas.idea.plugins.documentum.components.project.DfProjectComponent</interface-class>
+        </component>
+    </project-components>
+
+    <actions>
+
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+</idea-plugin>
