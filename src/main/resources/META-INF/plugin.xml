@@ -1,8 +1,8 @@
-<idea-plugin version="2">
+<idea-plugin>
     <name>documentum-plugin</name>
     <description>Documentum Plugin</description>
     <version>1.2</version>
-    <vendor>toolkas</vendor>
+    <vendor>Rogov Dmitriy</vendor>
 
     <idea-version since-build="107.105"/>
 
