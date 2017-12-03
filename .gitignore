@@ -1,0 +1,10 @@
+target
+*.log
+*.iml
+atlassian-ide-plugin.xml
+*.sh
+overlays
+dfc.keystore
+.idea
+dependency-reduced-pom.xml
+switch_users_step*.sql
