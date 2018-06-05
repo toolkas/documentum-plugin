@@ -17,7 +17,7 @@
             <directory>target</directory>
             <outputDirectory>/documentum-plugin/lib</outputDirectory>
             <includes>
-                <include>documentum-plugin.jar</include>
+                <include>documentum-plugin-${project.version}.jar</include>
             </includes>
         </fileSet>
     </fileSets>
