@@ -10,11 +10,6 @@ import com.documentum.fc.common.IDfLoginInfo;
 import java.util.*;
 
 public class Docbase implements Cloneable {
-    private static final Set<String> modifiableProperties = new HashSet<String>() {{
-        add("dfc.docbroker.host");
-        add("dfc.docbroker.port");
-    }};
-
     private final Map<String, String> dfcPropertiesCustomValues = new HashMap<String, String>();
     private List<DfcProperty> dfcProperties = new ArrayList<DfcProperty>();
 
@@ -201,7 +196,7 @@ public class Docbase implements Cloneable {
         }
 
         public boolean isModifiable() {
-            return modifiableProperties.contains(name);
+            return true;
         }
 
         public boolean isChanged() {
